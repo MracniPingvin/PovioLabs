@@ -1,0 +1,6 @@
+html{
+	min-width: 900px;
+}
+.container-fluid{
+	max-width: 1680px;
+}

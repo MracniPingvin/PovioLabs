@@ -1,0 +1,41 @@
+#header{
+	height: 100px;
+}
+#logo_div{
+	float:left;
+	margin-left: 215px;
+	width: 160px; 
+	height: 100px;
+	padding-top: 27px;
+}
+#logo_img{
+	width: 160px;
+	height: auto;
+}
+#header_options{
+	float: right;
+	margin-right: 215px;
+}
+
+ul#header_options li {
+	display: inline;
+}
+.header_item{
+	display: inline-block;
+	padding-top: 45px;
+	height: 100px;
+	color: #CECECE;
+	margin-right: 10px;
+	}
+
+.header_item:hover{
+	border-bottom: 3px solid #19BC9C;
+	color: #19BC9C;
+	cursor: pointer;
+}
+
+.header_item a{
+	font-family: 'Lato';
+	font-weight: bold;
+  	font-size: 15px;
+}
