@@ -1,6 +1,36 @@
 html{
-	min-width: 900px;
+	min-width: 1000px;
 }
 .container-fluid{
 	max-width: 1680px;
 }
+#welcome{
+}
+.base{
+	width: 100%;
+    padding-bottom: 55%;
+    position: relative;
+ }
+#welcome{
+	background-image: url("../images/lab.jpg");
+	background-size: cover; 
+}
+#welcome_div{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	font-family: "Lato";
+	font-size: 40px;
+	font-weight: lighter;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 43px;
+}
+#arrow_img{
+	width: 60px;
+	height: 60px;
+	margin-top: 43px;
+}
+

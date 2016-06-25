@@ -25,8 +25,12 @@ ul#header_options li {
 	padding-top: 45px;
 	height: 100px;
 	color: #CECECE;
-	margin-right: 10px;
-	}
+	margin-right: 30px;
+	font-family: 'Lato';
+  	font-size: 15px;
+  	font-weight: bold;
+  	text-align: center;
+}
 
 .header_item:hover{
 	border-bottom: 3px solid #19BC9C;
@@ -34,8 +38,4 @@ ul#header_options li {
 	cursor: pointer;
 }
 
-.header_item a{
-	font-family: 'Lato';
-	font-weight: bold;
-  	font-size: 15px;
-}
+
