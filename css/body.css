@@ -1,20 +1,19 @@
 html{
 	min-width: 1000px;
 }
-.container-fluid{
-	max-width: 1680px;
-}
-#welcome{
-}
+
+
 .base{
 	width: 100%;
     padding-bottom: 55%;
     position: relative;
  }
+
 #welcome{
 	background-image: url("../images/lab.jpg");
 	background-size: cover; 
 }
+
 #welcome_div{
 	position: absolute;
 	bottom: 0px;
@@ -28,9 +27,67 @@ html{
 	color: #ffffff;
 	padding-bottom: 43px;
 }
+
 #arrow_img{
 	width: 60px;
 	height: 60px;
 	margin-top: 43px;
 }
+#process_title{
+	padding: 242px 0px 133px 0px;
+}
+#process_title{
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	color: #19bc9c;
+}
+.regular{
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.25;
+	text-align: center;
+	color: #19bc9c;
+}
+#process_icons{
+	padding-left: 19%;
+}
 
+.process_div{
+	text-align: center;
+	padding-right: 50px;
+	margin-bottom: 308px;
+}
+
+.process_arrow{
+	position: absolute;
+	right: 0px;
+	top:50px;
+}
+#process_img1{
+	width: 171px;
+	height: 107px;
+	margin: 0px 0px 96px 0px;
+}
+#process_img2{
+	width: 165px;
+	height: 98px;
+	margin: 26px 0px 79px 0px;
+}
+#process_img3{
+	width: 157px;
+	height: 111px;
+	margin: 10px 0px 82px 0px;
+}
+#process_img4{
+	width: 85px;
+	height: 118px;
+	margin: 11px 0px 74px 0px;
+}
+#process_img5{
+	width: 97px;
+	height: 110px;
+	margin: 13px 0px 80px 0px;
+}

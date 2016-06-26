@@ -1,6 +1,7 @@
 #header{
 	height: 100px;
 }
+
 #logo_div{
 	float:left;
 	margin-left: 215px;
@@ -8,10 +9,12 @@
 	height: 100px;
 	padding-top: 27px;
 }
+
 #logo_img{
 	width: 160px;
 	height: auto;
 }
+
 #header_options{
 	float: right;
 	margin-right: 215px;
@@ -20,6 +23,7 @@
 ul#header_options li {
 	display: inline;
 }
+
 .header_item{
 	display: inline-block;
 	padding-top: 45px;
@@ -29,7 +33,6 @@ ul#header_options li {
 	font-family: 'Lato';
   	font-size: 15px;
   	font-weight: bold;
-  	text-align: center;
 }
 
 .header_item:hover{
@@ -37,5 +40,7 @@ ul#header_options li {
 	color: #19BC9C;
 	cursor: pointer;
 }
+
+
 
 
