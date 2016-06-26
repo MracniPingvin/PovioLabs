@@ -2,7 +2,8 @@ html{
 	min-width: 1000px;
 }
 
-
+.container-fluid{
+	width: 1680px;}
 .base{
 	width: 100%;
     padding-bottom: 55%;
@@ -51,6 +52,9 @@ html{
 	text-align: center;
 	color: #19bc9c;
 }
+.justify{
+	text-align: justify;
+}
 #process_icons{
 	padding-left: 19%;
 }
@@ -90,4 +94,62 @@ html{
 	width: 97px;
 	height: 110px;
 	margin: 13px 0px 80px 0px;
+}
+.regular_heading{
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 300;
+	color: #19bc9c;
+	margin-bottom: 25px;
+}
+.text_box_right{
+	width: 684px;
+	margin-top: 441px;
+	margin-right: 136px;
+	margin-left: 50px;
+}
+.text_box_left{
+	width: 684px;
+	margin-top: 441px;
+	margin-left: 131px;
+	margin-right: 119px;
+}
+.shadow{
+	box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.05) inset;
+}
+#lab{
+	height: 991px;
+}
+
+#video{
+    width: 625px;
+    height: 740px;
+    margin: 124px 0px 124px 119px;
+    background-image: url(../images/play-btn.svg), url(../images/image-copy.png);
+    background-position: center, left top;
+    background-repeat: no-repeat, no-repeat;
+	background-size: 200px, contain;
+	box-shadow: -1px -1px 300px -57px rgba(0,0,0,0.39);
+}
+#map{
+	position: absolute;
+	right: 120px;
+	margin-top: 126px;
+	width: 625px;
+  	height: 740px;
+  	object-fit: contain;
+}
+#trials{
+	height: 991px;
+}
+#father{
+	position: absolute;
+	left: 120px;
+	margin-top: 142px;
+	width: 625px;
+  	height: 740px;
+  	object-fit: contain;
+}
+#story{
+	height: 1024px;
 }
