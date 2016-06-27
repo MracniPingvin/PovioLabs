@@ -95,6 +95,75 @@
 				</div>
 			</div>
 		</div>
+		<div class="row shadow" id="companies">
+			<div class="row" id="press">
+				<h2 class="companies_heading" id="press_heading">PRESS</h2>
+				<div class="col-md-12 logos">
+					<div class="outer">
+						<div class="inner" id="press_reel">
+							<img src="images/press-tc.svg" class="inner_img reel1" style="width:231px; left:110px;">
+							<img src="images/press-macro.svg" class="inner_img reel1" style="width:135px; left:371px;">
+							<img src="images/press-fbio.svg" class="inner_img reel1" style="width:189px; left:573px;">
+							<img src="images/press-sw.svg" class="inner_img reel1" style="width:129px; left:813px;">
+							<img src="images/press-bbc.svg" class="inner_img reel1" style="width:111px; left:992px;">
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="row" id="partners">
+				<h2 class="companies_heading" id="partners_heading">OUR PARTNERS</h2>
+				<div class="col-md-12 logos">
+					<div class="outer">
+						<img src="images/arrow-down.png" class="icon_big_left" id="left1">
+						<img src="images/arrow-down.png" class="icon_big_right" id="right1">
+						<div class="gradient">
+						</div>
+						<div class="inner" id="partner_reel">
+							<img src="images/partners-atomwise.svg" class="inner_img reel2" style="width:181px; left:0px;">
+							<img src="images/partners-biosero.png" class="inner_img reel2" style="width:185px; left:234px;">
+							<img src="images/partners-dana.svg" class="inner_img reel2" style="width:206px; left:474px;">
+							<img src="images/partners-mousera.svg" class="inner_img reel2" style="width:217px; left:724px;">
+							<img src="images/partners-stem.svg" class="inner_img reel2" style="width:175px; left:968px;">
+							<img src="images/partners-transcriptic.svg" class="inner_img reel2" style="width:225px; left:1169px;">
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="row" id="investors">
+				<h2 class="companies_heading" id="investors_heading">OUR INVESTORS</h2>
+				<div class="col-md-12 logos">
+					<div class="outer">
+						<img src="images/arrow-down.png" class="icon_big_left" id="left2">
+						<img src="images/arrow-down.png" class="icon_big_right" id="right2">
+						<div class="gradient">
+						</div>
+						<div class="inner" id="investor_reel">
+							<img src="images/investors-fclub.svg" class="inner_img reel3" style="width:246px; left:0px;">
+							<img src="images/investors-up.svg" class="inner_img reel3" style="width:46px; left:285px;">
+							<img src="images/investors-ff.svg" class="inner_img reel3" style="width:258px; left:372px;">
+							<img src="images/investors-oaks.svg" class="inner_img reel3" style="width:227px; left:666px;">
+							<img src="images/investors-y.svg" class="inner_img reel3" style="width:208px; left:923px;">
+							<img src="images/investors-logo-2.svg" class="inner_img reel3" style="width:64px; left:1170px;">
+							<img src="images/investors-fuel.svg" class="inner_img reel3" style="width:223px; left:1278px;">
+							<img src="images/investors-eleven.svg" class="inner_img reel3" style="width:64px; left:1570px;">
+						</div>
+					</div>
+				</div>
+			</div>
 	</div>	
+<script type="text/javascript">
+	$( "#left1" ).click(function() {
+		$("#partner_reel").animate({left: '+=600px'});
+	});
+	$( "#right1" ).click(function() {
+		$("#partner_reel").animate({left: '-=600px'});
+	});
+	$( "#left2" ).click(function() {
+		$("#investor_reel").animate({left: '+=600px'});
+	});
+	$( "#right2" ).click(function() {
+		$("#investor_reel").animate({left: '-=600px'});
+	});
+</script>
 </body>    
 </html>
