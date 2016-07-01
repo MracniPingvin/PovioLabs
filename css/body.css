@@ -11,7 +11,7 @@ html{
  }
 
 #welcome{
-	background-image: url("../images/lab.jpg");
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/lab.jpg");
 	background-size: cover; 
 }
 
@@ -36,8 +36,6 @@ html{
 }
 #process_title{
 	padding: 242px 0px 133px 0px;
-}
-#process_title{
 	font-family: Lato;
 	font-size: 40px;
 	font-weight: 300;
@@ -225,4 +223,62 @@ html{
 #investors_heading{
 	margin-top: 106px;
 	margin-bottom: 16px;
+}
+#contact_heading{
+	margin-top: 69px;
+	margin-bottom: 47px;
+	text-align: center;
+}
+
+.entry{
+	height: 60px;
+	border-radius: 5px;
+	background-color: #f6f6f6;
+	border: solid 2px #e5e5e5;
+	margin-bottom: 10px;
+	font-family: Lato;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1;
+	color: #999999;
+}
+.entry_text{
+	padding: 21px;
+	resize: none;
+  	border-radius: 5px;
+  	background-color: #f6f6f6;
+  	border: solid 2px #e5e5e5;
+  	font-family: Lato;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1;
+	color: #999999;
+	margin-bottom: 10px;
+}
+.entry_submit{
+	width: 100%;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #19bc9c;
+	font-family: Lato;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1;
+	color: #ffffff;
+}
+#contact{
+	height: 576px;
+}
+.form_column{
+	padding: 5px;
+}
+#to_top{
+	position: absolute;
+	right: 29px;
+	bottom: 31px;
+}
+#to_top_wrapper{
+	position: relative;
+	width: 100%;
+	height: 576px; 
 }

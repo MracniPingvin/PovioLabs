@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Example Domain</title>
+	<title>Notable labs</title>
 
     <meta charset="utf-8" />
    	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -150,6 +150,26 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row shadow">
+			<h1 class="regular_heading" id="contact_heading">Contact us</h1>
+			<form method="post">
+				<div class="col-md-5 col-md-offset-1 form_column">
+					<input class="form-control entry" type="text" name="name" placeholder="Name">
+					<input class="form-control entry" type="email" name="email" placeholder="Email">
+					<input class="form-control entry" type="text" name="subject" placeholder="Subject">
+					<input class="form-control entry" type="text" name="how" placeholder="How did you hear about us?">
+					<input class="form-control entry" type="text" name="who" placeholder="Tell us who you are?">
+				</div>
+				<div class="col-md-5 form_column">
+					<textarea class="form-control entry_text" name="message" style="height:270px;" placeholder="Message"></textarea>
+					<input class="btn entry_submit" type="submit" name="button" value="Send Message">
+				</div>
+			</form>
+			<div id="to_top_wrapper">
+				<img src="images/arrow-to-top.svg" id="to_top">
+			</div>
+		</div>
 	</div>	
 <script type="text/javascript">
 	$( "#left1" ).click(function() {
