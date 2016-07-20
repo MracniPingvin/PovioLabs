@@ -10,9 +10,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script><link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/body.css">
 	
-</head>
+</head>asd
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid">asd
   		<div id="header" class="row">
 			<?php include 'includes/header.html';?>
 		</div>
